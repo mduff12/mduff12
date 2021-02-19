@@ -85,3 +85,11 @@ project-2
 |__ presentation.pdf
 |__ README.md
 ```
+
+    df.corr()[['SalePrice']].sort_values(by='SalePrice', ascending = False)
+
+    features = ['Overall Qual', 'Gr Liv Area'] X= df[features] y= df['SalePrice']
+
+    X_train, y_train, X_test, y_test = train_test_split (X,y, random_state=424)
+
+    lr = LinearRegression() lr.fit(X_train, y_train) lr.score(X_train,y_train),lr.score(X_test,y_test)
