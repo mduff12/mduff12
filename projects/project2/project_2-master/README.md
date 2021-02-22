@@ -21,12 +21,15 @@ Remodel date
 
 Full bathrooms above grade
 
+
 **Additionally, the following characteristics helped narrow down the model so we were able to more accurately predict prices:**
 
 Garage location: Attached to home
 
 Garage Quality: Typical/Average
+
 Basement Exposure (Refers to walkout or garden level walls): Good 
+
 Basement Finish: Good living quarters
 
 
@@ -38,7 +41,6 @@ Basement Finish: Good living quarters
 5. Notebook 4 contains the Ridge and Lasso Regressions. This notebook helps us understand how the features interact and what is less/more important for sale price. 
 6. At the bottom of the relevent notebooks there is a "Kaggle Submissions" section, if you are participating in the Kaggle challenge
 
- 
 
 # Analysis & Recommmendations
 When it comes to housing and real estate, there are many factors that could indicate sale price. The features that were correlated to the final sale price in the Ames housing data set include *Overall Quality Score* and *above grade (ground) living area square feet*. It is no surprise that feature which aggregates all of the aspects of a house is most strongly correlated with price. Similarly, above ground square footage and basement square footage may be easy-to-guess variables, too. 
