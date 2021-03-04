@@ -29,11 +29,31 @@ Outline:
             This can include posts with support, info or practical advice. 
             Anyone can comment, but be substantive and in good faith. "
             ii) **140k members**
-        b. Conspiracy: 
+        b. Conspiracy: https://www.reddit.com/r/conspiracy/
             i) "The conspiracy subreddit is a thinking ground. Above all else, we respect everyone's opinions and ALL religious beliefs and creeds. 
             We hope to challenge issues which have captured the public’s imagination, from JFK and UFOs to 9/11. 
             This is a forum for free thinking, not hate speech. Respect other views and opinions, and keep an open mind. 
             Our intentions are aimed towards a fairer, more transparent world and a better future for everyone."
             ii) **1.5m members**
-    V. 
-        
+    V. Methodology
+        a. logistic regression
+            i) LR is more interpretable than other models
+            ii) I want to be able to interpret coefficieents to help analyze the key words and phrases
+                a) sentiment analysis on the Qanon casualties threads
+                b) understanding which phrases to look out for that seem innocuous at first but may actually indicate conspiracy thinking or theorizing
+        b. Random forest model to increase prediction accuracy
+ 
+ 
+ 
+Notes from completing eda and modeling:
+https://neptune.ai/blog/exploratory-data-analysis-natural-language-processing-tools
+
+Analyzing text statistics
+Text statistics visualizations are simple but very insightful techniques. 
+
+They include:
+
+word frequency analysis,
+sentence length analysis,
+average word length analysis,
+etc.
