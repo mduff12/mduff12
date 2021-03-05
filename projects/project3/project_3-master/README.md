@@ -2,7 +2,7 @@
 
 ## Executive Summary 
 
-![]('./images/believe.jpg')
+![](images/believe.jpg)
 
 
 
