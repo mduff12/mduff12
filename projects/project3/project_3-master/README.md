@@ -1,3 +1,12 @@
+### American Conspriacy: A Textual Analysis of Online Conspiracy Theories and the People They Affect
+
+## Executive Summary 
+
+![]('./images/believe.jpg')
+
+
+
+
 Sources:
  https://www.politico.com/news/2021/01/15/feds-edge-closer-to-sedition-charge-459573
  https://variety.com/2020/digital/news/facebook-bans-qanon-trump-conspiracy-group-1234728644/
