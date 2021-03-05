@@ -2,7 +2,28 @@
 
 ## Executive Summary 
 
-![]('./images/believe.jpg')
+![](images/believe.jpg)
+
+
+Do you believe?
+
+
+Conspriacy Theories are about as American as apple pie. They have existed since the times of the first colonies; from UFOs to shadow corporations and CIA coverups, conspiracies tend to come to fruition during times of immense social change (Merlan, Anna. (2019). *Republic of Lies: American Conspiracy Theorists and Their Surprising Rise to Power*. Metropolitan Books).  
+
+
+Qanon is a relatively new conspiracy theory that includes satanism, pedophilia-rings controlled by the Democratic Party, and Donald Trump ousting  and arresting the global elite. Q claims to be a high-level government whistleblower and spreads harmful misinformation via internet message boards, popular conspiracy theorists such as Alex Jones, and even a member of congress.
+
+
+This project aims to analyze the 2 subreddits r/Conspiracy and r/QanonCasualties, and creates machine learning models to predict the subreddit the text belongs to. This will help us analyze two things: 
+ 1) how people tend to speak when it comes to conspiracy theories (which key words indicat conspiratorial thinking?)
+ 2) how the conspiracy theories affect the family and friends of those whoe believe, specifically the Qanon classification (what do the friends and family of Qanon believers reach     out for help on?)
+
+### Methodology
+This project utilzes a Logistic Regression to pull interpretable coefficients, and (separately) a Random Trees Classifier to help predict which subreddit a title belongs to. We split the data into training and testing sets, and fit the model based on the training data. We then test the unseen data and will review accuracy scores. 
+
+### Future Plans for this Data
+This project analyzes the overall sentiment of the subreddits, and finds important words and phrases to identify those seeking help with Qanon conspiracies, and those who are discussing general conspiracy. These words will help us create an app in teh future that will analzye the text to help the user idenitfy patterns. These patterns will tell us if a friend or family member is falling into the Qanon conspiracy, and give tips and techniques to help bring them back to rational thinking. 
+
 
 
 
@@ -14,55 +35,3 @@ Sources:
  https://en.wikipedia.org/wiki/Dog_whistle_(politics)
  https://en.wikipedia.org/wiki/QAnon
  https://www.reddit.com/r/QAnonCasualties/wiki/glossary
- 
-Outline:
-    I. Introduction to Conspiracies in general
-        a. What is the modern conspiracy theory?
-        b. What are the origins of modern conspiracy?
-        c. What types of conspiracies are common in the cultural zeitgeist now?
-        d. 
-    II. What is Qanon?
-        a. Qanon explanation
-        b. What does Qanon have to do with the capitol riots that took place on Jan 6?
-        c. Why Qanon is dangerous?
-    III. How do conspiracies spread?
-        a. What is a dog whistle?
-            i) make sure to include definition of a dog whistle in presentation
-        b. Media literacy 
-        c. Social media - like Reddit
-    IV. Introduction to Reddit Threads
-        a. Qanon Casualties: https://www.reddit.com/r/QAnonCasualties/
-            i) "Have a friend or loved one taken in by QAnon? Look here for support, resources and a place to vent. Peruse old posts, settle in and relax. 
-            Learn to heal, deal and deprogram. 
-            Posts should relate to the direct experience of dealing with Q/adjacent folk. 
-            This can include posts with support, info or practical advice. 
-            Anyone can comment, but be substantive and in good faith. "
-            ii) **140k members**
-        b. Conspiracy: https://www.reddit.com/r/conspiracy/
-            i) "The conspiracy subreddit is a thinking ground. Above all else, we respect everyone's opinions and ALL religious beliefs and creeds. 
-            We hope to challenge issues which have captured the public’s imagination, from JFK and UFOs to 9/11. 
-            This is a forum for free thinking, not hate speech. Respect other views and opinions, and keep an open mind. 
-            Our intentions are aimed towards a fairer, more transparent world and a better future for everyone."
-            ii) **1.5m members**
-    V. Methodology
-        a. logistic regression
-            i) LR is more interpretable than other models
-            ii) I want to be able to interpret coefficieents to help analyze the key words and phrases
-                a) sentiment analysis on the Qanon casualties threads
-                b) understanding which phrases to look out for that seem innocuous at first but may actually indicate conspiracy thinking or theorizing
-        b. Random forest model to increase prediction accuracy
- 
- 
- 
-Notes from completing eda and modeling:
-https://neptune.ai/blog/exploratory-data-analysis-natural-language-processing-tools
-
-Analyzing text statistics
-Text statistics visualizations are simple but very insightful techniques. 
-
-They include:
-
-word frequency analysis,
-sentence length analysis,
-average word length analysis,
-etc.
