@@ -1,5 +1,5 @@
 
-[OriginalArtwork](./Images/UnseenPandemic_MerylDuff.jpg)
+![OriginalArtwork](./Images/UnseenPandemic_MerylDuff.jpg)
 
 # EXECUTIVE SUMMARY
 The COVID-19 pandemic has changed the world forever. On a scale never seen before, humanity has experienced a collective trauma. Thanks to technology we have unprecendented access to data around spread, mortality rates, vaccines, and more. Also thanks to technology, we have seen the faces of the pandemic from every corner of the globe. There is a population in the United States, however, that has struggled to get their experiences with this devastating pandemic out to the public. 
