@@ -16,15 +16,15 @@ The data is limited at times, with prisons systems unable/unwilling to share dat
 
 ### Problem Statement:
 
-I will complete a seires of univariate, time-series regressions to forecast positive COVID-19 cases among incarcerated people in the state of New Jersey. The evaluation metrics will be root mean squared error and R-squared scores. The baseline will be a linear time-series model with 1 lag and I will aim to improve this model by 5%.
+I will complete a series of univariate, time-series regressions to forecast positive COVID-19 cases among incarcerated people in the state of New Jersey. The evaluation metrics will be root mean squared error and R-squared scores. The baseline will be a linear time-series model with 1 lag and I will aim to improve this model by 5%.
 
 ### Statistical Analysis:
 
-I created 2 different linear time series regressions - 1 with 1 lag, and 1 with 2 lags. Lagging the data refers to moving the data back 1 unit in order to correlate the data with itself and is also knowns as Serial Correlation. 
+I created 2 different linear time series regressions - 1 with 1 lag, and 1 with 2 lags. Lagging the data refers to moving the data back 1 unit in order to correlate the data with itself and is also known as serial correlation. 
 
 The lags I created were used in Autocorrelation and Partial Autocorrelation plots to help determine the relationship the data has with a lagged version of itself. The Partial Autocorreclation proved that 1 lag would probably be enough to model on. Adding 2 lags did not prove to help linear model performance.
 
-The ARIMA model is an attempt to improve the baseline model. I tested the data with the Augmented Dicky Fuller test, and the data demonstrated stationarity in its original version, so I did not difference it for the ARIMA model. I chose a q-value of 3 because it decreased the RMSE score. In the end, the R2 was still 0, so I was unable to utilize it in prediction. 
+The ARIMA model is an attempt to improve the baseline model. I tested the data with the Augmented Dicky Fuller test, and the data demonstrated stationarity in its original version, so I did not difference it for the ARIMA model. I chose a q-value of 3 because it decreased the RMSE score. In the end, the R2 was still 0, so I was unable to utilize it in predictions. 
 
 ### Dashboards
 The dashboards were created to help understand how the data differs from state to state.
