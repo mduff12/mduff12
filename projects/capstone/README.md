@@ -2,7 +2,7 @@
 ![OriginalArtwork](./Images/UnseenPandemic_MerylDuff.jpg)
 
 # EXECUTIVE SUMMARY
-The COVID-19 pandemic has changed the world forever. On a scale never seen before, humanity has experienced a collective trauma. Thanks to technology we have unprecendented access to data around spread, mortality rates, vaccines, and more. Also thanks to technology, we have seen the faces of the pandemic from every corner of the globe. There is a population in the United States, however, that has struggled to get their experiences with this devastating pandemic out to the public. 
+The COVID-19 pandemic has changed the world forever. On a scale never seen before, humanity has experienced a collective trauma. Thanks to technology we have unprecedented access to data around spread, mortality rates, vaccines, and more. Also thanks to technology, we have seen the faces of the pandemic from every corner of the globe. There is a population in the United States, however, that has struggled to get their experiences with this devastating pandemic out to the public. 
 
 [As of December 2020, the rate of COVID-19 among prisoners in the United States was 4 as high as than the general population.](https://www.themarshallproject.org/2020/12/18/1-in-5-prisoners-in-the-u-s-has-had-covid-19) Even as the first Americans began getting their vaccines, the spread in prisons showed no signs of slowing. According to Homer Venters, the former chief medical officer at New York’s Rikers Island jail complex, those numbers are an under count. Because of crowded conditions, prisoners cannot social distance, and don't recieve proper care from the medical staff inside. This is why data collection and sharing these numbers is so important. 
 
