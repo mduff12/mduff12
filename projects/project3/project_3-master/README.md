@@ -22,7 +22,7 @@ This project aims to analyze the 2 subreddits r/Conspiracy and r/QanonCasualties
 This project utilzes a Logistic Regression to pull interpretable coefficients, and (separately) a Random Trees Classifier to help predict which subreddit a title belongs to. We split the data into training and testing sets, and fit the model based on the training data. We then test the unseen data and will review accuracy scores. 
 
 ### Future Plans for this Data
-This project analyzes the overall sentiment of the subreddits, and finds important words and phrases to identify those seeking help with Qanon conspiracies, and those who are discussing general conspiracy. These words will help us create an app in teh future that will analzye the text to help the user idenitfy patterns. These patterns will tell us if a friend or family member is falling into the Qanon conspiracy, and give tips and techniques to help bring them back to rational thinking. 
+This project analyzes the overall sentiment of the subreddits, and finds important words and phrases to identify those seeking help with Qanon conspiracies, and those who are discussing general conspiracy. These words will help us create an app in the future that will analzye the text to help the user idenitfy patterns. These patterns will tell us if a friend or family member is falling into the Qanon conspiracy, and give tips and techniques to help bring them back to rational thinking. 
 
 
 
