@@ -1,8 +1,0 @@
-*Project 1*
-
-**Executive Summary**
-
-Problem Statement
-Data Dictionary
-Brief Summary of Analysis
-Conclusion & Recommendations
