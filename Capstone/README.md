@@ -28,6 +28,5 @@ The ARIMA model is an attempt to improve the baseline model. I tested the data w
 ### Dashboards
 The dashboards were created to help understand how the data differs from state to state.
 
-[Maps](https://public.tableau.com/shared/HQ2X2GB84?:display_count=y&:origin=viz_share_link)
 [Rates](https://public.tableau.com/profile/meryl1401#!/vizhome/Covid-19-USPrisons_2/Rates)
 [Presentation](https://prezi.com/view/WIxg7VvtAyiE87D6EitX/)
